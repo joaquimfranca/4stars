@@ -1,0 +1,78 @@
+.my-movies {
+  margin-top: 24px;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.my-movies h1 {
+  margin-top: 400px;
+  margin-bottom: 14px;
+  text-align: center;
+  font-size: 15px;
+  display: block;
+  color: rgb(250, 250, 250);
+  min-height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #2b2a33;
+}
+
+.my-movies span {
+  margin-bottom: 14px;
+  text-align: center;
+  font-size: 15px;
+  display: block;
+  color: rgb(250, 250, 250);
+  min-height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.my-movies ul {
+  width: 720px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.my-movies ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.my-movies div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b2a33;
+}
+.my-movies div a {
+  text-decoration: none;
+  color: #a1a1a1;
+  margin-right: 10px;
+  margin-top: 15px;
+  background-color: #2b2a33;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.my-movies div a:hover {
+  color: #ececec;
+}
+.my-movies div button {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  margin-right: 12px;
+  margin-top: 14px;
+  margin-left: 0px;
+  font-size: 15px;
+  border: 0;
+  outline: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: #d23034;
+}
+.my-movies img {
+  width: 100px;
+}

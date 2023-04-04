@@ -1,0 +1,142 @@
+.backdrop-img {
+  margin-top: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(0.5) blur(5px);
+  width: 100%;
+  height: 100%;
+}
+
+.poster-img {
+  height: 400px;
+  margin-left: 50px;
+  z-index: 1;
+  margin-top: -100px;
+}
+
+.container {
+  
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+}
+
+.text-info {
+  padding-right: 100px;
+  padding-left: 100px;
+  display: block;
+  width: 700px;
+  background-color:transparent;
+}
+
+.youtube {
+  margin-left: 80px;
+  padding: 50px;
+  width: 426px;
+  height: 240px;
+  background-color:transparent;
+}
+.text-info p {
+  margin-top: 15px;
+  color: white;
+  font-size: 20px;
+  background-color:transparent;
+}
+
+.text-info h3 {
+  margin-top: 15px;
+  font-size: 40px;
+  color: white;
+  background-color:transparent;
+}
+.text-info h4 {
+  margin-top: 15px;
+  color: white;
+  font-size: 15px;
+  background-color:transparent;
+}
+
+.text-info h5 {
+  margin-top: 15px;
+  font-size: 15px;
+  color: white;
+  background-color:transparent;
+}
+
+span {
+  margin-top: 15px;
+  color: white;
+  background-color:transparent;
+}
+
+.button {
+  background-color:transparent;
+  padding-bottom: 100px;
+}
+
+.button-plus {
+  max-width: 100%;
+  width: 100px;
+  height: 25px;
+  background-color: #36353d;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+  
+}
+.button-plus:hover{
+  color: #36353d;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .youtube {
+    margin-left: -30px;
+    width: 226px;
+    height: 140px;
+  }
+
+  .poster-img {
+    margin-top: 100px;
+    height: 400px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+
+  .text-info {
+    width: 50%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.backdrop-img {
+ 
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 700px) {
+.backdrop-img {
+ 
+  margin-top: 0px;
+}}
