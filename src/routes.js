@@ -9,12 +9,13 @@ import Mymovies from "./pages/Mymovies";
 function RoutesApp() {
   return (
     <BrowserRouter>
-      <Header />
+      <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/movie/:id" element={<Movies />} />
         <Route path="/mymovies" element={<Mymovies />} />
       </Routes>
+     
     </BrowserRouter>
   );
 }

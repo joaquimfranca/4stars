@@ -62,7 +62,7 @@ export default function Movies() {
   if (loading) {
     return (
       <div className="movie-info">
-        <h1> carregando detalhes... </h1>
+        <h1> Loading... </h1>
       </div>
     );
   }
@@ -84,21 +84,19 @@ export default function Movies() {
           <p>synopsis</p>
           <span>{movie.overview}</span>
           <h5> Vote Average:{movie.vote_average.toFixed(1)}0</h5>
-  
-            <iframe
-              className="youtube"
-              src={`https://www.youtube.com/embed/${trailer.key}`}
-              frameborder="0"
-              allow="autoplay; encrypted-media"
-              allowfullscreen
-            ></iframe>
-                 <div className="button">
+
+          <iframe
+            className="youtube"
+            src={`https://www.youtube.com/embed/${trailer.key}`}
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+          ></iframe>
+          <div className="button">
             <button className="button-plus" onClick={Savemovie}>
-              {" "}
-              Save{" "}
+              save
             </button>
-            </div>
-          
+          </div>
         </div>
       </div>
     </>
