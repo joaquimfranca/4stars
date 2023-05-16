@@ -61,7 +61,7 @@ export default function Movies() {
 
   if (loading) {
     return (
-      <div className="movie-info">
+      <div className="loading">
         <h1> Loading... </h1>
       </div>
     );

@@ -9,6 +9,11 @@
   height: 650px;
   max-width: 100%;
 }
+.loading{
+  background-color: #2b2a33;
+  text-align: center;
+  font-size: 30px;
+}
 
 .poster-img {
   height: 400px;
