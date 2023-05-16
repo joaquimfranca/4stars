@@ -1,4 +1,4 @@
-# Four Stars out of Five (API request)
+# Four Stars out of Five (API request) :clapper::popcorn:
 
 Esse site é uma biblioteca de filme que puxa todo os dados de forma dinâmica atráves da API pública da TMDB, listando informações trailer e etc...</br></br>
 This website is a movie library that dynamically fetches all the data through the public API of TMDB. It lists information about movies, including trailers and more.
