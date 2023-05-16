@@ -7,7 +7,7 @@ export default function Header() {
     <>
     <div className="header">
       <Link className="logo" to="/">
-        <img src={logo} />
+        <img src={logo} alt="logo"/>
       </Link>
       <Link className="mymovies" to="/mymovies">
         My Movies

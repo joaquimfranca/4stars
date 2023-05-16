@@ -5,8 +5,6 @@ import "./home.css";
 import welcome from "../Home/welcome.cover.png";
 import star from "../Home/star.png";
 
-// /movie/now_playing?api_key=c675d03d9d4695c83b6198fcca873868&language=en-US
-
 export function Home() {
   const [movies, setMovies] = useState([]);
 
@@ -22,32 +20,32 @@ export function Home() {
 
       setMovies(response.data.results.slice(0, 20));
     }
+
     loadMovies();
   }, []);
 
   return (
     <>
       <div className="welcome">
-        <img src={welcome} />
+        <img src={welcome} alt="Welcome" />
       </div>
 
       <div className="movie-list">
-        {movies.map((movies) => {
+        {movies.map((movie) => {
           return (
-            <div key={movies.id}>
-              <Link to={`movie/${movies.id}`}>
+            <div key={movie.id}>
+              <Link to={`movie/${movie.id}`}>
                 <img
-                  src={`http://image.tmdb.org/t/p/original/${movies.poster_path}`}
-                  alt={movies.title}
+                  src={`http://image.tmdb.org/t/p/original/${movie.poster_path}`}
+                  alt={movie.title}
                 />
               </Link>
-              <Link to={`movie/${movies.id}`}>
-                <h1> {movies.title}</h1>
+              <Link to={`movie/${movie.id}`}>
+                <h1>{movie.title}</h1>
 
                 <h2 className="vote">
-                  {" "}
-                  <img src={star} />
-                  {movies.vote_average.toFixed(1)}
+                  <img src={star} alt="Star" />
+                  {movie.vote_average.toFixed(1)}
                 </h2>
               </Link>
             </div>

@@ -104,11 +104,15 @@ span {
 }
 
 @media screen and (max-width: 1000px) {
+  .poster-img {
+    margin-left: -20px;
+
+  }
   .container {
     flex-wrap: wrap;
   }
   .youtube {
-    margin-left: -30px;
+    margin-left: -50px;
     width: 226px;
     height: 140px;
   }
@@ -127,5 +131,13 @@ span {
   }
   .container {
     margin-top: 20px;
+  }
+  .text-info {
+    width: 100%;
+ 
+  }
+  .youtube {
+    margin-left: 40px;
+
   }
 }

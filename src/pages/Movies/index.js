@@ -89,7 +89,6 @@ export default function Movies() {
             className="youtube"
             src={`https://www.youtube.com/embed/${trailer.key}`}
             frameborder="0"
-            allow="autoplay; encrypted-media"
             allowfullscreen
           ></iframe>
           <div className="button">
