@@ -10,9 +10,9 @@
   max-width: 100%;
 }
 .loading{
-  background-color: #2b2a33;
+  background-color: transparent;
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .poster-img {
