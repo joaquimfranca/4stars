@@ -33,7 +33,7 @@ export function Home() {
       <div className="movie-list">
         {movies.map((movie) => {
           return (
-            <div key={movie.id}>
+            <div className="card" key={movie.id}>
               <Link to={`movie/${movie.id}`}>
                 <img
                   src={`http://image.tmdb.org/t/p/original/${movie.poster_path}`}
