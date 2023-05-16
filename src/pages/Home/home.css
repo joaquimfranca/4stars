@@ -74,8 +74,12 @@ h2 {
 
 @media (max-width: 850px) {
   .movie-list {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0 auto;
+    grid-column-gap: 0;
+  
   }
-
+  .card {
+    max-width: 100%;
+  }
 }
