@@ -1,10 +1,13 @@
 #          Movies Api 
 
-This website is a movie library that dynamically fetches all the data through the public API of TMDB. It lists the top-rated movies based on their ratings, and includes a search field for users to perform searches.
-
-Esse site é uma biblioteca de filme que puxa todo os dados de forma dinâmica atráves da API pública da TMDB. Listando os melhores filmes baseado em suas notas, com campo de busca e pesquisa.
+Esse site é uma biblioteca de filme que puxa todo os dados de forma dinâmica atráves da API pública da TMDB, listando informações trailer e etc...
+This website is a movie library that dynamically fetches all the data through the public API of TMDB. It lists information about movies, including trailers and more.
 
 ### Deployment
-https://4stars.vercel.app/
-<img src="./public/thumb.png" style="width: 400px; height: auto;">
+https://4stars.vercel.app/ </br>
+<img src="./public/thumb.png" style="width: 600px; height: auto;">
 
+# A criação de todo o site foi em React.
+# Navegação de rotas com o react-router-dom
+
+#The entire website was built in React, including the routing navigation using react-router-dom.
